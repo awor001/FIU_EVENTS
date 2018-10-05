@@ -1,0 +1,71 @@
+//JS web workshop things learned
+
+//console.log('print');
+//loop is the same except === meaning same type
+
+//declare variables
+//var name = 'Alexis';
+//console.log(name);
+
+//Mutable or not: const = doesn't want to change
+//const change = 'i blah blah';
+//console.log(change);
+//change = 'okay';
+//console.log(change);// error
+//you need let change 
+//let change = 'i blah';
+
+//arrays
+//const arr = ['5', 'rob', '9', ['556']]; //Like python
+//console.log(arr[3]); //556
+
+//length, splice, and join
+//arr.splice(0,2) // will show the first two
+//join just puts a symbol between the array elements
+
+//foreach
+//allows iterate through each elemtent and perform a function
+//MAP
+//creates new array
+//filter
+//if you had strings you could filter it out when you have ints
+//method creates a new array with all elements that pass the test 
+//implemented by the provided function.
+//const arr = ['string',4, 'asd', 5]
+//const result arr.filter(arr); //Pretty much filters string
+//first solution
+//const firsolution = arr.filter(element => {
+//   return !Number.isInteger(element);
+// });
+//Objects
+//let user = {fir: "ale", lnam: "wor"}
+//console.log(user.fir); //prints first name
+//SCOPE
+//Asynchronous js
+
+// function getInput(callback){
+//   callback(' rdf');
+// }
+// getInput((x)=> {
+//   console.log(x)
+// }); // Needs promise only prints rdf
+//async website to learn about
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
